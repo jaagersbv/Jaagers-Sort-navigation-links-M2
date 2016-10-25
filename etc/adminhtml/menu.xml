@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Jaagers. All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../Backend/etc/menu.xsd">
+	<menu>
+		<add id="jaagers_sortnavigationlinks::base" parent="jaagers::base" title="Navigation links" module="Jaagers_Sortnavigationlinks" sortOrder="90" resource="Jaagers_Sortnavigationlinks::basic"/>
+		<add id="jaagers_sortnavigationlinks::sortnavigationlinks" title="Manage" module="Jaagers_Sortnavigationlinks" sortOrder="10" parent="jaagers_sortnavigationlinks::base" action="jaagers_sortnavigationlinks/navigationlinks/" resource="Jaagers_Sortnavigationlinks::navigationlinks"/>
+	</menu>
+</config>

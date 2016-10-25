@@ -1,0 +1,20 @@
+{
+  "name": "jaagers/sortnavigationlinks-m2",
+  "description": "Magento 2.x module.",
+  "require": {
+    "php": "~5.6.0|7.0.2|~7.0.6",
+    "magento/module-config": "100.1.*",
+    "magento/module-store": "100.1.*",
+    "magento/module-catalog": "101.0.*",
+    "magento/module-customer": "100.1.*",
+    "magento/module-eav": "100.1.*",
+    "magento/framework": "100.1.*",
+    "magento/module-ui": "100.1.*",
+    "jaagers/adminmenu-m2": "0.*"
+  },
+  "type": "magento2-module",
+  "autoload": {
+    "files": ["registration.php"],
+    "psr-4": {"Jaagers\\Sortnavigationlinks\\": ""}
+  }
+}
